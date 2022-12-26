@@ -1,0 +1,52 @@
+.container-sign{
+    background-color: white;
+    width: 50%;
+    height: 60%;
+    display: block;
+    padding: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 10px 7px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .container-sign input{
+    display: block;
+    width: 70%;
+    height: 15%;
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  .container-sign label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+  .container-sign button{
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(280, 100, 80);
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+  .container-sign button:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+    transition: .5s ease-in;
+  
+  }
+  .img-sign{
+    width: 100px;
+    height:100px;
+    margin: 10px;
+  }
+  /* .container-sign h1{
+    text-shadow: 0px 0px 5px rgba(144, 50, 216, 0.8);
+  } */
+  

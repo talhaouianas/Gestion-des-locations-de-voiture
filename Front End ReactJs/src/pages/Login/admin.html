@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        /* width: 100%; */
+        /* height: 80vh; */
+        padding: 5%;
+        margin: 40px;
+        border-radius: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .container caption{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+  .container table{
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .container td{
+    padding: 10px;
+  }
+  .container th{
+    background-color: gainsboro;
+    padding: 10px;
+  }
+  .supp{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .supp:hover, .cons:hover{
+    transform: scale(1.1);
+    transition: .5s;
+  }
+  .cons{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .menu{
+    background-color: rgba(68, 68, 208,0.9);
+    margin-right:20px ;
+    width: 35%;
+    border-radius: 5px;
+  }
+  .menu p{
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.car{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    font-size: 20px;
+}
+.car button{
+    padding: 5px;
+}
+
+</style>
+<body>
+    <h1>Admin Page</h1>
+    
+    <div class="container">
+        <div class="menu">
+            <p>view list of client</p>
+            <p>view list of cars</p>
+            <p>view list of reservation</p>
+            <p>add a car</p>
+            <p>delete a car</p>
+            <p>Modify a car</p>
+            <p>Add user</p>
+            <p>Delete user</p>
+        </div>
+        <table border="1">
+        <caption>List of client</caption>
+        <tr>
+            <th>Id</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Email</th>
+            <th>Reservation</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Walid</td>
+            <td>Cherki</td>
+            <td>walid123@gmail.com</td>
+            <td>YES <button class="cons">view</button></td>
+            <td> <button class="supp">Delete</button> </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ahmed</td>
+            <td>bnani</td>
+            <td>ahmed12bn@gmail.com</td>
+            <td>NO</td>
+            <td> <button class="supp">Delete</button> </td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Yassin</td>
+            <td>Bounou</td>
+            <td>yassin2022@gmail.com</td>
+            <td>YES <button class="cons">view</button></td>
+            <td> <button class="supp">Delete</button> </td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Salma</td>
+            <td>latifa</td>
+            <td>salma13@gmail.com</td>
+            <td>NO</td>
+            <td> <button class="supp">Delete</button> </td>
+
+        </tr>
+    </table>
+</div>
+
+<div class="container">
+    <span class="c">Add a car </sapn>
+    <div class="car" > 
+        name : <input type="text" class="input" required />
+        model : <input type="text" class="input" required />
+        matricule : <input type="text" class="input" required />
+        color : <input type="text" class="input" required />
+        force : <input type="text" class="input" required placeholder="In terme of horses"/>
+        price for a day : <input type="text" class="input" required />
+        <span></span><button class="cons">add</button>
+    </div>
+</div>
+</body>
+</html>

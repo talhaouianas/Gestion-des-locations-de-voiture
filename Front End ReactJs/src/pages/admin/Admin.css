@@ -1,0 +1,178 @@
+.container-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5%;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container-client caption{
+font-size: 25px;
+font-weight: bolder;
+margin-bottom: 15px;
+}
+.container-client table{
+border-collapse: collapse;
+text-align: center;
+width: 80%;
+}
+.container-client td{
+padding: 10px;
+border: 1px solid black;
+}
+.container-client th{
+background-color: gainsboro;
+padding: 10px;
+border: 1px solid black;
+
+}
+.supp{
+background-color: red;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+padding: 3px;
+}
+.supp:hover, .cons:hover{
+transform: scale(1.1);
+transition: .5s;
+}
+.cons{
+background-color: green;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container-admin{
+    display: grid;
+    grid-template-areas:
+    "menuu box1 box2 box3 "
+    "image image image image "
+    ;
+    gap: 40px 10px ;
+    background-color: white;
+    padding: 5%;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.total-cars, .total-clients{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    margin-right:20px;
+    border-radius: 20px;
+}
+.img-statistic img{
+    height: 400px;
+    margin-left: 150px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.img-statistic{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    margin-right:20px;
+    border-radius: 20px;
+    width: 100%;
+    grid-area: image;
+}
+
+.menu-admin{
+background-color: rgba(68, 68, 208,0.8);
+padding-top:15px ;
+margin-right:20px;
+border-radius: 5px;
+grid-area: menuu ;
+border-radius: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.total-cars{
+    grid-area: box1;
+}
+.owners{
+    grid-area: box2;
+}
+.total-clients{
+    grid-area: box3;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu-admin .link{
+    text-align: center;
+display: block;
+margin-bottom: 10px;
+padding-left: 10px;
+color: white;
+/* color: rgb(145, 143, 144); */
+font-size: 20px;
+text-decoration: underline;
+cursor: pointer;
+}
+.menu-admin .link:hover{
+    color: white;
+    scale: 1.1;
+    transition: 1s;
+    letter-spacing: 3px;
+
+}
+.car{
+display: grid;
+grid-template-columns: repeat(2,300px);
+row-gap: 10px;
+column-gap: 30px;
+font-size: 20px;
+width: 50%;
+margin-left: 150px;
+}
+.car button{
+padding: 5px;
+}
+.container-client form{
+    /* border: 2px solid gray; */
+    padding-right: 30px;
+    padding: 35px 35px 35px 0;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(255, 255, 255);
+}
+
+.list-client-h1{
+    font-size: 40px ;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-undo{
+    margin: 10px 10px 0 10px;
+    width: 50px;
+    height: 50px;
+    opacity: 4;
+}
