@@ -13,7 +13,7 @@ Importer le projet dans Intelij ou SpringTool</br>
 Exécuter le projet, il va être démarré dans le port 8080</br></br>
 4-	Pour la partie de déploiement:</br>
 Tout d'abord, créez un fichier jar de votre application Spring Boot à l'aide de la commande </br>
-‘ ./mvn clean package’
+‘ ./mvn clean package’</br>
 Executer application avec mvn</br>
 Ouvrir le terminal dans le chemin de projet </br>
 Exécuter les  commandes : </br>
