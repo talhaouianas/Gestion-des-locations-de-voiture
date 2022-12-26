@@ -1,8 +1,8 @@
 # Challenge-de-code---OkVoiture-v1.1---Test-technique-
 OkVoiture with Spring-Boot, React, REST API, MySQL, Docker
 
-1-	créer une BD sous le nom "OkVoiture" pour stocker les informations sur les voitures et les locations et importer le fichier "OkVoiture.sql" Dans votre système de gestion de bases de données </br>
-2-	Pour la partie Front-End :</br></br>
+1-	créer une BD sous le nom "OkVoiture" pour stocker les informations sur les voitures et les locations et importer le fichier "OkVoiture.sql" Dans votre système de gestion de bases de données </br></br>
+2-	Pour la partie Front-End :
 Importer le dossier "front-end ReactJS" dans visual studio code ou votre IDE</br>
 Ouvrir un terminal dans le chemin de projet (press Ctrl+j in VsCode)</br>
  Exécuter la commande : "npm install"</br>
