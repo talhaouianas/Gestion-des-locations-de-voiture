@@ -1,4 +1,4 @@
-# Challenge-de-code---OkVoiture-v1.1---Test-technique-
+# Challenge-de-code--OkVoiture-v1.1--Test-technique-
 OkVoiture with Spring-Boot, React, REST API, MySQL, Docker
 
 1-	créer une BD sous le nom "OkVoiture" pour stocker les informations sur les voitures et les locations et importer le fichier "OkVoiture.sql" Dans votre système de gestion de bases de données </br></br>
